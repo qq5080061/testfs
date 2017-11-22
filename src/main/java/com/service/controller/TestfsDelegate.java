@@ -17,7 +17,7 @@ public class TestfsDelegate {
     public String sayHei( String name){
 
         // Do Some Magic Here!
-        return "Hei,"+name+"!welcome to ServiceStage.";
+        return null;
     };
 
 
