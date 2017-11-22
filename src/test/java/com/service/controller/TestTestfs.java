@@ -61,10 +61,10 @@ public class TestTestfs {
     @Test
     public void testsayHi(){
 
-        String expactReturnValue = null; // You should put the expect String type value here.
+        String expactReturnValue = "hi,Tom! Welcome to ServiceStage!"; // You should put the expect String type value here.
 
         // You should put the parameter here, in such footprint: testfsImpl.sayHi(String name)
-        String returnValue = testfsImpl.sayHi(null);
+        String returnValue = testfsImpl.sayHi("Tom");
 
         assertEquals(expactReturnValue, returnValue);
     }
