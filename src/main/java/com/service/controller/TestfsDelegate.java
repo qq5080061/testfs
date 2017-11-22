@@ -17,7 +17,7 @@ public class TestfsDelegate {
     public String sayHei( String name){
 
         // Do Some Magic Here!
-        return null;
+        return "Hei,"+name+"!welcome to ServiceStage.";
     };
 
 
@@ -31,7 +31,7 @@ public class TestfsDelegate {
     public String sayHi(String name){
 
         // Do Some Magic Here!
-        return null;
+        return "Hi,"+name+"!welcome to ServiceStage!";
     };
 
 
